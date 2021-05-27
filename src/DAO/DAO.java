@@ -20,7 +20,7 @@ public class DAO {
             
             String url = "jdbc:postgresql://localhost:5432/Locadora";
             String usuario = "postgres";
-            String senha = "pqmxinsune02042";
+            String senha = "SENHADOUSUARIO";
             
             return DriverManager.getConnection(url, usuario, senha);
             
